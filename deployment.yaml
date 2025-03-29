@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: node-app
-          image: manojjivanagi/node-app:v2
+          image: manojjivanagi/node-app:v3
           ports:
             - containerPort: 3000
           envFrom:
